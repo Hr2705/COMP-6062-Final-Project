@@ -1,0 +1,63 @@
+body {
+    margin-top: 20px;
+    font-family: Trebuchet MS, Garamond;
+    background-color: #36d8a5;
+}
+
+header{
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+footer{
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #1c73ff;
+    color: #fff;
+
+}
+
+section {
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border: 1px solid #bddbfa;
+}
+
+.bordered-image {
+    border: 3px solid blue; 
+}
+
+.defaultLocation{
+    text-align: center;
+    padding: 10px; 
+    background-color: wheat;
+    color: navy;
+}
+
+.inputBox{
+    padding: 3px;
+    margin: 2px;
+}
+.btn-primary {
+    transition: transform 0.2s ease-in-out; 
+    color: black;
+}
+  
+.btn-primary:hover {
+    transform: scale(1.05); 
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: #b3f0ff;
+        color: #FFF;
+        font-size: 14px;
+    }
+    img{
+        max-width: 12px;
+    }
+}
